@@ -208,3 +208,21 @@ hr {
     background-color: transparent;
     opacity: .7;
 }
+
+.geo-input label {
+    font-size: 12px;
+    color: var(--primary-80);
+}
+
+.geo-input input {
+    color: var(--primary);
+}
+
+.geo-input input::placeholder {
+    color: var(--primary-50);
+    font-size: 14px;
+}
+
+.geo-input .input-group span {
+    color: var(--primary-80);
+}
